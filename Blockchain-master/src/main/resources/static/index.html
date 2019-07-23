@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+    <title>Block Chain Console</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body onload="getAllAgents()">
+<script src="js/display.js"></script>
+<script src="js/restClient.js"></script>
+<h1>Block Chain Demo</h1>
+<hr>
+
+<p>
+    <button type="button" class="button" id="addAgent" onclick="createAgent()">New Agent</button>
+    <button type="button" id="getAll" onclick="getAllAgents()" class="button">Refresh All</button>
+    <button type="button" class="button" id="delAllAgent" onclick="deleteAllAgents()">Delete All Agents</button>
+</p>
+
+<hr>
+<p id="msg" class="msg">
+    Empty.
+</p>
+
+<table id="output">
+</table>
+
+</body>
+</html>

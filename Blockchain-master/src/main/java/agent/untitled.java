@@ -1,0 +1,4 @@
+jp.java
+class{
+	
+}
